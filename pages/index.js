@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -303,9 +304,13 @@ closeButton.addEventListener("click", function() {
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="home-get-started3 template-button">
-                  <span className="home-text042">Start for free</span>
-                </div>
+                <Link href="/live-shopee">
+                  <a className="home-link">
+                    <div className="home-get-started3 template-button">
+                      <span className="home-text042">Start for free</span>
+                    </div>
+                  </a>
+                </Link>
                 <span className="home-text043">What&apos;s included</span>
                 <div className="home-bullet-points">
                   <div className="home-point">
@@ -1443,8 +1448,12 @@ Here's what the above is doing:
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
+          .home-link {
+            display: contents;
+          }
           .home-get-started3 {
             transition: 0.3s;
+            text-decoration: none;
           }
           .home-get-started3:hover {
             color: var(--dl-color-gray-white);

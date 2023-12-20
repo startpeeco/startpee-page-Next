@@ -1793,6 +1793,9 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               background-color: #009cff;
             }
+            .home-mobile-navigation {
+              display: flex;
+            }
             .home-close-mobile-menu {
               align-items: center;
               justify-content: center;
@@ -2115,7 +2118,7 @@ Here's what the above is doing:
             }
             .home-mobile-navigation {
               width: 479px;
-              display: none;
+              display: flex;
             }
             .home-logo {
               margin-left: 0px;

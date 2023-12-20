@@ -134,7 +134,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category">
               <div className="home-headng">
-                <span className="home-text13">1 - Consuloria </span>
+                <span className="home-text13">1 - Consultoria </span>
                 <span className="home-text14">
                   <span>
                     precisa ser feito uma conversa para descobrir se os seus

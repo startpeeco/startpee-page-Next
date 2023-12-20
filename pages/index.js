@@ -1950,7 +1950,7 @@ Here's what the above is doing:
           }
           @media (max-width: 767px) {
             .home-hero {
-              height: 628px;
+              height: 610px;
               position: relative;
               padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);

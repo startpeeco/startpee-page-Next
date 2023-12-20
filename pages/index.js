@@ -91,10 +91,10 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
           </div>
+          <h1 className="home-text07">
+            Livecommerce vai aumentar suas vendas na shopee
+          </h1>
           <header className="home-header">
-            <h1 className="home-text07">
-              Livecommerce vai aumentar suas vendas na shopee
-            </h1>
             <iframe
               src="https://www.youtube.com/embed/DeQkMK5LME4"
               className="home-iframe"
@@ -822,20 +822,21 @@ Here's what the above is doing:
           .home-container2 {
             display: contents;
           }
+          .home-text07 {
+            color: rgb(255, 255, 255);
+            display: none;
+            font-size: 72px;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+            line-height: 80px;
+          }
           .home-header {
             height: 779px;
             display: flex;
             margin-top: 140px;
             align-items: center;
             flex-direction: column;
-          }
-          .home-text07 {
-            color: rgb(255, 255, 255);
-            font-size: 72px;
-            font-style: normal;
-            text-align: center;
-            font-weight: 700;
-            line-height: 80px;
           }
           .home-iframe {
             width: 711px;
@@ -1980,17 +1981,17 @@ Here's what the above is doing:
             .home-get-started {
               display: none;
             }
-            .home-header {
-              height: 100%;
-              margin-top: var(--dl-space-space-fourunits);
-              justify-content: center;
-            }
             .home-text07 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
+            }
+            .home-header {
+              height: 100%;
+              margin-top: var(--dl-space-space-fourunits);
+              justify-content: center;
             }
             .home-get-started1 {
               margin-top: var(--dl-space-space-twounits);

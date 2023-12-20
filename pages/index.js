@@ -674,6 +674,7 @@ Here's what the above is doing:
             min-height: 100vh;
             overflow-x: hidden;
             flex-direction: column;
+            background-color: #000000;
           }
           .home-hero {
             width: 100%;

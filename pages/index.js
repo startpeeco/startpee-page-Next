@@ -945,7 +945,6 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             overflow: hidden;
-            padding-left: var(--dl-space-space-fourunits);
             border-radius: 50px;
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: row;
@@ -969,6 +968,7 @@ Here's what the above is doing:
           }
           .home-text14 {
             color: rgb(238, 233, 254);
+            font-size: 20px;
             line-height: 24px;
             margin-bottom: 40px;
           }
@@ -1015,9 +1015,9 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             align-items: flex-start;
+            margin-left: 5px;
             padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-fourunits);
-            padding-right: var(--dl-space-space-fourunits);
+            margin-right: 5px;
             flex-direction: column;
             padding-bottom: 0px;
           }
@@ -1026,12 +1026,15 @@ Here's what the above is doing:
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
+            margin-left: 10px;
             margin-bottom: 16px;
           }
           .home-text19 {
             color: rgb(30, 30, 30);
             font-size: 22px;
             line-height: 24px;
+            margin-left: 10px;
+            margin-right: 10px;
           }
           .home-pricing {
             width: 100%;
@@ -2183,26 +2186,35 @@ Here's what the above is doing:
               color: var(--dl-color-gray-white);
             }
             .home-category {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
+              padding-left: 0px;
+              padding-right: var(--dl-space-space-halfunit);
               flex-direction: column;
               background-color: var(--dl-color-gray-black);
             }
+            .home-headng {
+              width: 223px;
+            }
             .home-text13 {
               font-size: 32px;
-              font-style: normal;
-              font-weight: 700;
             }
             .home-text14 {
               color: rgb(238, 233, 254);
+              align-self: center;
+              line-height: 24px;
+              margin-left: 0px;
+            }
+            .home-text15 {
+              font-size: 18px;
             }
             .home-category1 {
               width: 479px;
               height: 341px;
             }
             .home-headng1 {
-              width: 479px;
-              height: 100%;
+              width: 413px;
+              height: 373px;
+              padding-left: 0px;
+              padding-right: 0px;
             }
             .home-text18 {
               color: rgb(0, 0, 0);
@@ -2211,6 +2223,7 @@ Here's what the above is doing:
               color: rgb(30, 30, 30);
               font-size: 22px;
               line-height: 43px;
+              margin-right: 5px;
             }
             .home-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);

@@ -110,15 +110,12 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-features">
-          <div className="home-title"></div>
-          <div className="home-cards"></div>
-        </section>
+        <section className="home-features"></section>
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
               “um novo recurso da shopee vai fazer uma loja que está começando
-              de 30 dias fazer até + de 60 vendas.”
+              de 30 dias fazer +de 60 vendas.”
             </span>
             <div className="home-author">
               <img
@@ -133,7 +130,6 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-banners"></section>
         <section className="home-how-it-works">
           <div className="home-centered-container">
             <div className="home-heading">
@@ -216,7 +212,7 @@ closeButton.addEventListener("click", function() {
                 <span className="home-text25">Yearly</span>
               </div>
             </div>
-            <div className="home-cards1">
+            <div className="home-cards">
               <div className="home-card">
                 <span className="home-text26">Free</span>
                 <span className="home-text27">
@@ -924,21 +920,6 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .home-title {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-cards {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            max-width: 1200px;
-            margin-top: 80px;
-            align-items: center;
-            flex-direction: column;
-          }
           .home-quote-container {
             width: 100%;
             display: flex;
@@ -986,13 +967,6 @@ Here's what the above is doing:
           .home-text09 {
             font-style: normal;
             font-weight: 600;
-          }
-          .home-banners {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: column;
           }
           .home-how-it-works {
             width: 100%;
@@ -1230,7 +1204,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-cards1 {
+          .home-cards {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1952,13 +1926,6 @@ Here's what the above is doing:
             .home-features {
               padding-top: 260px;
             }
-            .home-title {
-              width: 100%;
-              max-width: 1200px;
-            }
-            .home-cards {
-              margin-top: var(--dl-space-space-fiveunits);
-            }
             .home-quote-container {
               padding-top: var(--dl-space-space-sevenunits);
               padding-bottom: var(--dl-space-space-sevenunits);
@@ -1999,7 +1966,7 @@ Here's what the above is doing:
               width: 100%;
               max-width: 600px;
             }
-            .home-cards1 {
+            .home-cards {
               display: flex;
               flex-direction: column;
             }
@@ -2275,10 +2242,6 @@ Here's what the above is doing:
             }
             .home-features {
               padding-top: 200px;
-            }
-            .home-cards {
-              margin-top: var(--dl-space-space-threeunits);
-              margin-bottom: var(--dl-space-space-threeunits);
             }
             .home-category {
               padding-left: var(--dl-space-space-twounits);

@@ -140,11 +140,11 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category">
               <div className="home-headng">
-                <span className="home-text13">1 — Consuloria de negócios </span>
+                <span className="home-text13">1 - Consuloria </span>
                 <span className="home-text14">
                   <span>
-                    primeiro de tudo precisa ser feito uma conversa para
-                    entender e corrigir os seus erros
+                    precisa ser feito uma conversa para descobrir se os seus
+                    produtos tem potêncial de vendas.
                   </span>
                   <br></br>
                 </span>
@@ -164,12 +164,12 @@ closeButton.addEventListener("click", function() {
               <div className="home-category1">
                 <div className="home-headng1">
                   <span className="home-text18">
-                    2 — fazer parceria com @Presentelive 
+                    2 - fazer parceria com @Presentelive 
                   </span>
                   <span className="home-text19">
                     A presente Live é perfil na shopee que faz lives dentro da
-                    plataforma com foco em divulgar produtos de outras lojas, o
-                    custo é de acordo com oque você pode pagar.
+                    plataforma com foco em divulgar produtos de outras lojas,
+                    você pode fazer um teste 100% grátis.
                   </span>
                 </div>
                 <img
@@ -184,7 +184,8 @@ closeButton.addEventListener("click", function() {
                     2 — Planejamento estratégico
                   </span>
                   <span className="home-text21">
-                    Para que o sua loja cresça é preciso planejar 
+                    Para que o sua loja cresça é preciso planejar e com nossa
+                    ajuda vai se tornar fácil. 
                   </span>
                 </div>
                 <img
@@ -2254,6 +2255,27 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
+            }
+            .home-text13 {
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-text14 {
+              color: rgb(238, 233, 254);
+            }
+            .home-text18 {
+              color: rgb(0, 0, 0);
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-text19 {
+              color: rgb(30, 30, 30);
+              line-height: 24px;
+            }
+            .home-text21 {
+              color: rgb(238, 233, 254);
             }
             .home-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);

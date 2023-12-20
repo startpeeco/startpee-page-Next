@@ -115,7 +115,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-quote">
             <span className="home-message">
               “um novo recurso da shopee vai fazer uma loja que está começando
-              de 30 dias fazer +de 60 vendas.”
+              em 30 dias fazer +de 60 vendas.”
             </span>
             <div className="home-author">
               <img
@@ -135,8 +135,7 @@ closeButton.addEventListener("click", function() {
             <div className="home-heading">
               <span className="home-text11">Oque precisa fazer</span>
               <span className="home-text12 title">
-                Oque precisa ser feito para sua loja na shopee vender nos
-                próximos 30dias
+                para sua loja na shopee vender nos próximos 30dias
               </span>
             </div>
             <div className="home-category">
@@ -2242,6 +2241,14 @@ Here's what the above is doing:
             }
             .home-features {
               padding-top: 200px;
+            }
+            .home-message {
+              color: rgb(255, 255, 255);
+              font-size: 24px;
+              line-height: 31px;
+            }
+            .home-text12 {
+              color: var(--dl-color-gray-white);
             }
             .home-category {
               padding-left: var(--dl-space-space-twounits);

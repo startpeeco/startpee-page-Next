@@ -137,7 +137,7 @@ closeButton.addEventListener("click", function() {
               <div className="home-headng">
                 <span className="home-text13">1 - Consultoria </span>
                 <span className="home-text14">
-                  <span>
+                  <span className="home-text15">
                     precisa ser feito uma conversa para descobrir se os seus
                     produtos tem potêncial de vendas.
                   </span>
@@ -147,13 +147,7 @@ closeButton.addEventListener("click", function() {
                   <span className="home-text17">Quero começar</span>
                 </div>
               </div>
-              <div className="home-container3">
-                <img
-                  alt="pastedImage"
-                  src="/shopee-lives-contribuem-com-vendas-e-engajamento-de-consumidores-e-vendedores-no-brasil-1200w.png"
-                  className="home-pasted-image"
-                />
-              </div>
+              <div className="home-container3"></div>
             </div>
             <div className="home-row">
               <div className="home-category1">
@@ -167,11 +161,6 @@ closeButton.addEventListener("click", function() {
                     você pode fazer um teste 100% grátis.
                   </span>
                 </div>
-                <img
-                  alt="pastedImage"
-                  src="/shopee-lives-contribuem-com-vendas-e-engajamento-de-consumidores-e-vendedores-no-brasil-1200w.png"
-                  className="home-pasted-image1"
-                />
               </div>
             </div>
           </div>
@@ -997,16 +986,11 @@ Here's what the above is doing:
           }
           .home-container3 {
             flex: 1;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
-          }
-          .home-pasted-image {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
           }
           .home-row {
             display: flex;
@@ -1017,7 +1001,8 @@ Here's what the above is doing:
           .home-category1 {
             flex: 1;
             color: white;
-            height: 555px;
+            width: 926px;
+            height: 267px;
             display: flex;
             overflow: hidden;
             align-items: flex-end;
@@ -1045,10 +1030,8 @@ Here's what the above is doing:
           }
           .home-text19 {
             color: rgb(30, 30, 30);
+            font-size: 22px;
             line-height: 24px;
-          }
-          .home-pasted-image1 {
-            width: 100%;
           }
           .home-pricing {
             width: 100%;
@@ -1856,20 +1839,30 @@ Here's what the above is doing:
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
+              background-color: var(--dl-color-gray-black);
             }
             .home-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
+            .home-text14 {
+              font-size: 19px;
+            }
             .home-container3 {
               width: 100%;
             }
-            .home-pasted-image {
-              height: auto;
+            .home-category1 {
+              width: 838px;
+              height: 216px;
             }
             .home-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
+            }
+            .home-text19 {
+              color: rgb(30, 30, 30);
+              font-size: 22px;
+              line-height: 24px;
             }
             .home-text21 {
               width: 100%;
@@ -2036,8 +2029,18 @@ Here's what the above is doing:
             .home-text12 {
               margin-bottom: 0px;
             }
+            .home-category {
+              background-color: var(--dl-color-gray-black);
+            }
             .home-headng {
               padding-bottom: 0px;
+            }
+            .home-text14 {
+              color: rgb(238, 233, 254);
+              line-height: 24px;
+            }
+            .home-text15 {
+              font-size: 18px;
             }
             .home-get-started2 {
               display: none;
@@ -2048,6 +2051,19 @@ Here's what the above is doing:
             .home-row {
               height: auto;
               flex-direction: column;
+            }
+            .home-category1 {
+              width: 734px;
+              height: 193px;
+            }
+            .home-headng1 {
+              width: 767px;
+              height: 197px;
+            }
+            .home-text19 {
+              color: rgb(30, 30, 30);
+              font-size: 20px;
+              line-height: 24px;
             }
             .home-pricing {
               width: 100%;
@@ -2170,6 +2186,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
+              background-color: var(--dl-color-gray-black);
             }
             .home-text13 {
               font-size: 32px;
@@ -2179,12 +2196,21 @@ Here's what the above is doing:
             .home-text14 {
               color: rgb(238, 233, 254);
             }
+            .home-category1 {
+              width: 479px;
+              height: 341px;
+            }
+            .home-headng1 {
+              width: 479px;
+              height: 100%;
+            }
             .home-text18 {
               color: rgb(0, 0, 0);
             }
             .home-text19 {
               color: rgb(30, 30, 30);
-              line-height: 24px;
+              font-size: 22px;
+              line-height: 43px;
             }
             .home-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);

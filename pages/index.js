@@ -95,11 +95,10 @@ closeButton.addEventListener("click", function() {
             <h1 className="home-text07">
               Livecommerce vai aumentar suas vendas na shopee
             </h1>
-            <video
-              src
-              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
-              className="home-video"
-            ></video>
+            <iframe
+              src="https://www.youtube.com/embed/DeQkMK5LME4"
+              className="home-iframe"
+            ></iframe>
             <div className="home-get-started1">
               <span className="home-text08">Começar</span>
             </div>
@@ -109,8 +108,8 @@ closeButton.addEventListener("click", function() {
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
-              “um novo recurso da shopee vai fazer uma loja que está começando
-              em 30 dias fazer +de 60 vendas.”
+              “as live da shopee são poucas pessoas que estão utilizando, teve
+              um cliente que em 7 dias já fez 14 vendas😱.”
             </span>
             <div className="home-author">
               <img
@@ -826,6 +825,7 @@ Here's what the above is doing:
             display: contents;
           }
           .home-header {
+            height: 779px;
             display: flex;
             margin-top: 140px;
             align-items: center;
@@ -839,10 +839,10 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .home-video {
-            width: 952px;
-            height: 455px;
-            margin-top: 27px;
+          .home-iframe {
+            width: 711px;
+            height: 414px;
+            margin-top: var(--dl-space-space-fourunits);
           }
           .home-get-started1 {
             color: white;
@@ -854,6 +854,7 @@ Here's what the above is doing:
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-twounits);
             border-radius: 56px;
+            margin-bottom: 53px;
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
@@ -873,6 +874,7 @@ Here's what the above is doing:
             height: 340px;
             display: flex;
             z-index: 1;
+            margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
             padding-top: 400px;
             padding-left: var(--dl-space-space-sevenunits);
@@ -921,6 +923,7 @@ Here's what the above is doing:
           .home-quote1 {
             color: rgb(151, 126, 249);
             width: 100%;
+            font-size: 14px;
             max-width: 800px;
             margin-left: var(--dl-space-space-unit);
           }
@@ -1981,7 +1984,7 @@ Here's what the above is doing:
           }
           @media (max-width: 767px) {
             .home-hero {
-              height: 620px;
+              height: 862px;
               position: relative;
               padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);
@@ -2017,9 +2020,6 @@ Here's what the above is doing:
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
-            }
-            .home-video {
-              height: 387px;
             }
             .home-get-started1 {
               margin-top: var(--dl-space-space-twounits);
@@ -2154,9 +2154,10 @@ Here's what the above is doing:
               width: 64px;
               height: 38px;
             }
-            .home-video {
-              width: 479px;
-              height: 250px;
+            .home-iframe {
+              width: 379px;
+              height: 246px;
+              margin-top: var(--dl-space-space-threeunits);
             }
             .home-get-started1 {
               width: 100%;
@@ -2166,8 +2167,8 @@ Here's what the above is doing:
             }
             .home-message {
               color: rgb(255, 255, 255);
-              font-size: 24px;
-              line-height: 31px;
+              font-size: 40px;
+              line-height: 52px;
             }
             .home-text12 {
               color: var(--dl-color-gray-white);

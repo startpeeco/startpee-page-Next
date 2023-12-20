@@ -133,7 +133,7 @@ closeButton.addEventListener("click", function() {
         <section className="home-how-it-works">
           <div className="home-centered-container">
             <div className="home-heading">
-              <span className="home-text11">Passos</span>
+              <span className="home-text11">Oque precisa fazer</span>
               <span className="home-text12 title">
                 Oque precisa ser feito para sua loja na shopee vender nos
                 próximos 30dias

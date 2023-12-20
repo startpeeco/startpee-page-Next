@@ -104,7 +104,6 @@ closeButton.addEventListener("click", function() {
             </div>
           </header>
         </section>
-        <section className="home-features"></section>
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
@@ -680,7 +679,7 @@ Here's what the above is doing:
           }
           .home-hero {
             width: 100%;
-            height: 1114px;
+            height: 1152px;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -868,22 +867,11 @@ Here's what the above is doing:
             font-style: normal;
             font-weight: 600;
           }
-          .home-features {
-            width: 100%;
-            height: 296px;
-            display: flex;
-            z-index: 1;
-            margin-top: var(--dl-space-space-fiveunits);
-            align-items: center;
-            padding-top: 400px;
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: column;
-            background-color: EFF0F2;
-          }
           .home-quote-container {
             width: 100%;
+            height: 620px;
             display: flex;
+            margin-top: 33px;
             align-items: center;
             padding-top: 160px;
             padding-left: var(--dl-space-space-sevenunits);
@@ -1845,9 +1833,6 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
-            .home-features {
-              padding-top: 260px;
-            }
             .home-quote-container {
               padding-top: var(--dl-space-space-sevenunits);
               padding-bottom: var(--dl-space-space-sevenunits);
@@ -2010,13 +1995,6 @@ Here's what the above is doing:
             .home-get-started1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .home-features {
-              height: 216px;
-              margin-top: 0px;
-              padding-top: 350px;
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-            }
             .home-quote-container {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
@@ -2147,9 +2125,6 @@ Here's what the above is doing:
             }
             .home-get-started1 {
               width: 100%;
-            }
-            .home-features {
-              padding-top: 200px;
             }
             .home-message {
               color: rgb(255, 255, 255);

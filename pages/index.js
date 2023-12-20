@@ -154,14 +154,12 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category1">
               <div className="home-headng2">
-                <span className="home-text19">
-                  2 - fazer parceria  @Presentelive 
-                </span>
+                <span className="home-text19">2 - fazer parceria  </span>
                 <span className="home-text20"></span>
               </div>
               <span className="home-text21">
-                <span className="home-text22">
-                  A presente Live é perfil na shopee que faz lives dentro da
+                <span>
+                  @presentelive é perfil na shopee que faz lives dentro da
                   plataforma com foco em divulgar produtos de outras lojas, você
                   pode fazer um teste 100%
                 </span>
@@ -1049,7 +1047,7 @@ Here's what the above is doing:
             margin-bottom: 40px;
           }
           .home-text21 {
-            color: rgb(30, 30, 30);
+            color: #ffffff;
             font-size: 22px;
             align-self: center;
             line-height: 24px;
@@ -2294,8 +2292,6 @@ Here's what the above is doing:
             }
             .home-text19 {
               font-size: 32px;
-              font-style: normal;
-              font-weight: 700;
             }
             .home-text20 {
               color: rgb(238, 233, 254);
@@ -2305,13 +2301,13 @@ Here's what the above is doing:
               margin-left: 0px;
             }
             .home-text21 {
-              color: rgb(30, 30, 30);
+              color: var(--dl-color-gray-white);
               font-size: 22px;
               line-height: 43px;
               margin-right: 5px;
             }
-            .home-text22 {
-              color: #ffffff;
+            .home-container4 {
+              border-color: #787878;
             }
             .home-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);

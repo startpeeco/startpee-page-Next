@@ -29,7 +29,7 @@ const Home = (props) => {
               <div className="home-links">
                 <span className="Link">Consultoria </span>
                 <span className="Link">Seja um Parceiro</span>
-                <span className="Link">Quanto custa</span>
+                <span className="Link">Serviços  </span>
               </div>
               <div id="close-mobile-menu" className="home-close-mobile-menu">
                 <svg viewBox="0 0 804.5714285714286 1024" className="home-icon">
@@ -46,15 +46,15 @@ const Home = (props) => {
                     className="home-logo1"
                   />
                   <div className="home-links1">
-                    <span className="Link">Solutions</span>
-                    <span className="Link">How it works</span>
-                    <span className="Link">Ativar live shopee</span>
+                    <span className="Link">Serviços</span>
+                    <span className="Link">Seja parceiro</span>
+                    <span className="Link">Consultoria marketplaces</span>
                   </div>
                 </div>
                 <div className="home-right">
                   <span className="home-sign-in Link">Sign in</span>
                   <div className="home-get-started">
-                    <span className="home-text06">começar</span>
+                    <span className="home-text06">Conversar</span>
                   </div>
                   <div id="open-mobile-menu" className="home-burger-menu">
                     <img
@@ -103,7 +103,7 @@ closeButton.addEventListener("click", function() {
             Livecommerce vai aumentar suas vendas na shopee
           </h1>
           <div className="home-get-started1">
-            <span className="home-text08">Começar</span>
+            <span className="home-text08">Eu quero </span>
           </div>
         </section>
         <section className="home-quote-container">
@@ -159,7 +159,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <span className="home-text21">
                 <span>
-                  @presentelive é perfil na shopee que faz lives dentro da
+                  @presentelive é um perfil na shopee que faz lives dentro da
                   plataforma com foco em divulgar produtos de outras lojas, você
                   pode fazer um teste 100%
                 </span>
@@ -426,8 +426,7 @@ closeButton.addEventListener("click", function() {
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header">
                 <span className="home-text65">
-                  — quanto você cobra para ativar a live na minha loja da
-                  shopee?
+                  — como faço para ativar a live na minha loja da shopee?
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -440,10 +439,9 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="accordionContent">
                 <span className="home-text66">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                  é simples até lojas ativa 1 semana pode ativar só entrar em
+                  contato conosco que a gente te orienta sem cobra Nada 100%
+                  grátis .
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -455,7 +453,7 @@ closeButton.addEventListener("click", function() {
             <div className="accordionContainer">
               <div className="home-header1">
                 <span className="home-text67">
-                  — Why is dolore magna aliqua excepteur sint
+                  — quanto vocês cobram pra divulgar os meus produtos por live?
                 </span>
                 <svg viewBox="0 0 1024 1024" className="accordionIcon">
                   <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
@@ -463,10 +461,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="accordionContent">
                 <span className="home-text68">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                  Oferecemos esse serviço de forma personalizada  podemos fazer
+                  um teste grátis.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -478,8 +474,8 @@ closeButton.addEventListener("click", function() {
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header2">
                 <span className="home-text69">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
+                  — estou querendo abrir uma loja na shopee, vocês dão suporte
+                  passo a passo para vender?
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -492,10 +488,9 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="accordionContent">
                 <span className="home-text70">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                  Sim,primeiro é necessario conversar oferecemos um seviço de
+                  acompanhamento na qual ensinamos a você a gerenciar e  a
+                  vender na plataforma.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -507,14 +502,7 @@ closeButton.addEventListener("click", function() {
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header3">
                 <span className="home-text71">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  — você me ajuda a vender em outras plataformas?.
                 </span>
                 <svg viewBox="0 0 1024 1024" className="accordionIcon">
                   <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
@@ -522,34 +510,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="accordionContent">
                 <span className="home-text72">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
-                <span className="home-text73">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text74">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                  sim,Mercadolivre,shein,magalu precisamos marcar uma conversa.
+                  .
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -622,34 +584,31 @@ Here's what the above is doing:
           <div className="home-top">
             <div className="home-right2">
               <div className="home-category2">
-                <span className="home-text75">Solutions</span>
+                <span className="home-text73">SoluÇões </span>
                 <div className="home-links2">
-                  <span className="home-text76">Responsive Web Design</span>
-                  <span className="home-text77">Responsive Prototypesv</span>
-                  <span className="home-text78">Design to Code</span>
-                  <span className="home-text79">Static Website Builder</span>
-                  <span className="home-text80">Static Website Generator</span>
+                  <span className="home-text74">Ativar live na shopee</span>
+                  <span className="home-text75">
+                    divulgar sua loja shopee live
+                  </span>
+                  <span className="home-text76">Consultoria marketplaces</span>
+                  <span className="home-text77">Consultoria de negócios</span>
                 </div>
               </div>
               <div className="home-category3">
-                <span className="home-text81">Company</span>
+                <span className="home-text78">Empresa</span>
                 <div className="home-links3">
-                  <span className="home-text82">About</span>
-                  <span className="home-text83">Team</span>
-                  <span className="home-text84">News</span>
-                  <span className="home-text85">Partners</span>
-                  <span className="home-text86">Careers</span>
-                  <span className="home-text87">Press &amp; Media</span>
+                  <span className="home-text79">Reclame aqui</span>
+                  <span className="home-text80">Falar com o chefe</span>
+                  <span className="home-text81">seja parceiro</span>
                 </div>
               </div>
               <div className="home-category4">
-                <span className="home-text88">Solutions</span>
+                <span className="home-text82">Conectar </span>
                 <div className="home-links4">
-                  <span className="home-text89">Twitter</span>
-                  <span className="home-text90">Linkedin</span>
-                  <span className="home-text91">Crunchbase</span>
-                  <span className="home-text92">Instagram</span>
-                  <span className="home-text93">Facebook</span>
+                  <span className="home-text83">Linkedin</span>
+                  <span className="home-text84">Youtube</span>
+                  <span className="home-text85">Instagram</span>
+                  <span className="home-text86">Facebook</span>
                 </div>
               </div>
             </div>
@@ -660,7 +619,7 @@ Here's what the above is doing:
               src="/startpee2024remo-1500h.png"
               className="home-branding"
             />
-            <span className="home-text94">Copyright © Active - 2022</span>
+            <span className="home-text87">Copyright © Startpee - 2024</span>
           </div>
         </footer>
       </div>
@@ -785,6 +744,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-sign-in {
+            display: none;
             margin-right: 20px;
           }
           .home-get-started {
@@ -1047,10 +1007,10 @@ Here's what the above is doing:
             margin-bottom: 40px;
           }
           .home-text21 {
-            color: #ffffff;
-            font-size: 22px;
+            color: var(--dl-color-gray-white);
+            font-size: 19px;
             align-self: center;
-            line-height: 24px;
+            line-height: 43px;
             margin-left: 10px;
             margin-right: 10px;
           }
@@ -1619,23 +1579,6 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .home-header4 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text73 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text74 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
           .home-container6 {
             display: contents;
           }
@@ -1674,7 +1617,7 @@ Here's what the above is doing:
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text75 {
+          .home-text73 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -1687,24 +1630,20 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text76 {
+          .home-text74 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
           }
+          .home-text75 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text76 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
           .home-text77 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text78 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text79 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text80 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -1714,7 +1653,7 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text81 {
+          .home-text78 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -1727,9 +1666,35 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text82 {
+          .home-text79 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+          }
+          .home-text80 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text81 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-category4 {
+            width: 240px;
+            display: flex;
+            flex-direction: column;
+          }
+          .home-text82 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
           }
           .home-text83 {
             color: rgb(196, 196, 196);
@@ -1744,48 +1709,6 @@ Here's what the above is doing:
             font-size: 14px;
           }
           .home-text86 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text87 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-category4 {
-            width: 240px;
-            display: flex;
-            flex-direction: column;
-          }
-          .home-text88 {
-            color: rgb(255, 255, 255);
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-links4 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-text89 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text90 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text91 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text92 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text93 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -1804,8 +1727,8 @@ Here's what the above is doing:
               brightness(103%) contrast(103%);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text94 {
-            color: #686868;
+          .home-text87 {
+            color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
           }
@@ -1996,7 +1919,7 @@ Here's what the above is doing:
               width: var(--dl-size-size-medium);
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text94 {
+            .home-text87 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2302,7 +2225,7 @@ Here's what the above is doing:
             }
             .home-text21 {
               color: var(--dl-color-gray-white);
-              font-size: 22px;
+              font-size: 19px;
               line-height: 43px;
               margin-right: 5px;
             }
@@ -2325,6 +2248,33 @@ Here's what the above is doing:
               font-size: 20px;
               font-style: normal;
               font-weight: 500;
+            }
+            .home-text66 {
+              line-height: 24px;
+            }
+            .home-text67 {
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text68 {
+              line-height: 24px;
+            }
+            .home-text69 {
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text70 {
+              line-height: 24px;
+            }
+            .home-text71 {
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text72 {
+              line-height: 24px;
             }
             .home-footer {
               padding-left: var(--dl-space-space-unit);

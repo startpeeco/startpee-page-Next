@@ -602,15 +602,6 @@ Here's what the above is doing:
                   <span className="home-text81">seja parceiro</span>
                 </div>
               </div>
-              <div className="home-category4">
-                <span className="home-text82">Conectar </span>
-                <div className="home-links4">
-                  <span className="home-text83">Linkedin</span>
-                  <span className="home-text84">Youtube</span>
-                  <span className="home-text85">Instagram</span>
-                  <span className="home-text86">Facebook</span>
-                </div>
-              </div>
             </div>
           </div>
           <div className="home-bottom">
@@ -619,7 +610,7 @@ Here's what the above is doing:
               src="/startpee2024remo-1500h.png"
               className="home-branding"
             />
-            <span className="home-text87">Copyright © Startpee - 2024</span>
+            <span className="home-text82">Copyright © Startpee - 2024</span>
           </div>
         </footer>
       </div>
@@ -1678,40 +1669,6 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-category4 {
-            width: 240px;
-            display: flex;
-            flex-direction: column;
-          }
-          .home-text82 {
-            color: rgb(255, 255, 255);
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-links4 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-text83 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text84 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text85 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text86 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
           .home-bottom {
             width: 100%;
             display: flex;
@@ -1727,7 +1684,7 @@ Here's what the above is doing:
               brightness(103%) contrast(103%);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text87 {
+          .home-text82 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
@@ -1912,14 +1869,11 @@ Here's what the above is doing:
             .home-links3 {
               gap: var(--dl-space-space-unit);
             }
-            .home-links4 {
-              gap: var(--dl-space-space-unit);
-            }
             .home-branding {
               width: var(--dl-size-size-medium);
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text87 {
+            .home-text82 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;

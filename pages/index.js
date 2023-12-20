@@ -19,13 +19,13 @@ const Home = (props) => {
             <div id="mobile-menu" className="home-mobile-navigation">
               <img
                 alt="pastedImage"
-                src="/pastedimage-no9b-1500h.png"
+                src="/startpee2024remo-1500h.png"
                 className="home-logo"
               />
               <div className="home-links">
-                <span className="Link">Solutions</span>
-                <span className="Link">How it works</span>
-                <span className="Link">Prices</span>
+                <span className="Link">Consultoria </span>
+                <span className="Link">Seja um Parceiro</span>
+                <span className="Link">Quanto custa</span>
               </div>
               <div id="close-mobile-menu" className="home-close-mobile-menu">
                 <svg viewBox="0 0 804.5714285714286 1024" className="home-icon">
@@ -38,7 +38,7 @@ const Home = (props) => {
                 <div className="home-left">
                   <img
                     alt="pastedImage"
-                    src="/startpee2024remo-200h.png"
+                    src="/startpee2024remo-1500h.png"
                     className="home-logo1"
                   />
                   <div className="home-links1">
@@ -428,7 +428,8 @@ closeButton.addEventListener("click", function() {
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header">
                 <span className="home-text61">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
+                  — quanto você cobra para ativar a live na minha loja da
+                  shopee?
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -658,7 +659,7 @@ Here's what the above is doing:
           <div className="home-bottom">
             <img
               alt="pastedImage"
-              src="/startpee2024remo-200h.png"
+              src="/startpee2024remo-1500h.png"
               className="home-branding"
             />
             <span className="home-text90">Copyright © Active - 2022</span>
@@ -699,7 +700,7 @@ Here's what the above is doing:
             left: 0px;
             width: 100vw;
             height: 100vh;
-            display: flex;
+            display: none;
             z-index: 150;
             position: fixed;
             transform: translateX(100%);
@@ -752,7 +753,7 @@ Here's what the above is doing:
             align-items: center;
             padding-left: var(--dl-space-space-oneandhalfunits);
             border-radius: 50px;
-            margin-bottom: 44px;
+            margin-bottom: 55px;
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: row;
             justify-content: space-between;
@@ -862,7 +863,7 @@ Here's what the above is doing:
           }
           .home-quote-container {
             width: 100%;
-            height: 620px;
+            height: 574px;
             display: flex;
             margin-top: 33px;
             align-items: center;
@@ -2112,6 +2113,10 @@ Here's what the above is doing:
               padding-bottom: 160px;
               background-color: #009cff;
             }
+            .home-mobile-navigation {
+              width: 479px;
+              display: none;
+            }
             .home-logo {
               margin-left: 0px;
             }
@@ -2120,7 +2125,7 @@ Here's what the above is doing:
               justify-content: center;
             }
             .home-centered {
-              margin-bottom: 22px;
+              margin-bottom: 50px;
             }
             .home-logo1 {
               width: 64px;
@@ -2133,7 +2138,13 @@ Here's what the above is doing:
               padding-top: 0px;
             }
             .home-get-started1 {
-              width: 100%;
+              width: 263px;
+              height: 67px;
+            }
+            .home-quote-container {
+              height: 426px;
+              padding-top: 4px;
+              padding-bottom: var(--dl-space-space-twounits);
             }
             .home-message {
               color: rgb(255, 255, 255);
@@ -2178,6 +2189,11 @@ Here's what the above is doing:
             .home-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-text61 {
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
             }
             .home-footer {
               padding-left: var(--dl-space-space-unit);

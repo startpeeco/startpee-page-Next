@@ -2121,7 +2121,7 @@ Here's what the above is doing:
               background-color: #009cff;
             }
             .home-mobile-navigation {
-              width: 471px;
+              width: 383px;
               display: flex;
             }
             .home-logo {

@@ -2118,6 +2118,7 @@ Here's what the above is doing:
             }
             .home-logo1 {
               width: 64px;
+              height: 39px;
             }
             .home-links1 {
               display: none;
@@ -2528,6 +2529,10 @@ Here's what the above is doing:
             .home-icon {
               align-items: center;
               justify-content: center;
+            }
+            .home-logo1 {
+              width: 64px;
+              height: 38px;
             }
             .home-text008 {
               color: #eee9fe;

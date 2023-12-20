@@ -95,20 +95,15 @@ closeButton.addEventListener("click", function() {
             <h1 className="home-text07">
               Livecommerce vai aumentar suas vendas na shopee
             </h1>
+            <video
+              src
+              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+              className="home-video"
+            ></video>
             <div className="home-get-started1">
               <span className="home-text08">Começar</span>
             </div>
           </header>
-          <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <img
-                alt="pastedImage"
-                src="/2shopee-live-co-streaming-1000h.jpg"
-                loading="lazy"
-                className="home-image"
-              />
-            </div>
-          </div>
         </section>
         <section className="home-features"></section>
         <section className="home-quote-container">
@@ -702,7 +697,7 @@ Here's what the above is doing:
           }
           .home-hero {
             width: 100%;
-            height: 1000px;
+            height: 1114px;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -859,6 +854,11 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
+          .home-video {
+            width: 952px;
+            height: 455px;
+            margin-top: 27px;
+          }
           .home-get-started1 {
             color: white;
             cursor: pointer;
@@ -883,34 +883,9 @@ Here's what the above is doing:
             font-style: normal;
             font-weight: 600;
           }
-          .home-dashboard-preview {
-            top: 650px;
-            display: flex;
-            position: absolute;
-            align-items: center;
-            border-color: #633df6;
-            border-width: 30px;
-            border-radius: 100px;
-            flex-direction: column;
-            background-color: #633df6;
-          }
-          .home-outline {
-            display: flex;
-            align-items: center;
-            border-color: #7350f7;
-            border-width: 20px;
-            border-radius: 70px;
-            flex-direction: column;
-            background-color: #7350f7;
-          }
-          .home-image {
-            width: 986px;
-            z-index: 10;
-            user-select: none;
-            border-radius: var(--dl-radius-radius-round);
-          }
           .home-features {
             width: 100%;
+            height: 340px;
             display: flex;
             z-index: 1;
             align-items: center;
@@ -1920,9 +1895,6 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
-            .home-image {
-              width: 100%;
-            }
             .home-features {
               padding-top: 260px;
             }
@@ -2090,23 +2062,15 @@ Here's what the above is doing:
               font-weight: 700;
               line-height: 36px;
             }
+            .home-video {
+              height: 387px;
+            }
             .home-get-started1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-              border-width: 10px;
-              border-radius: 45px;
-            }
-            .home-outline {
-              border-width: 10px;
-              border-radius: 35px;
-            }
-            .home-image {
-              width: 100%;
-            }
             .home-features {
+              height: 216px;
+              margin-top: 0px;
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -2234,11 +2198,12 @@ Here's what the above is doing:
               width: 64px;
               height: 38px;
             }
+            .home-video {
+              width: 479px;
+              height: 250px;
+            }
             .home-get-started1 {
               width: 100%;
-            }
-            .home-dashboard-preview {
-              top: 500px;
             }
             .home-features {
               padding-top: 200px;

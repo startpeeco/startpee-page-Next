@@ -685,7 +685,7 @@ Here's what the above is doing:
             padding-left: var(--dl-space-space-sevenunits);
             padding-right: var(--dl-space-space-sevenunits);
             flex-direction: column;
-            background-color: #5228f5;
+            background-color: #009cff;
           }
           .home-menu {
             width: 100%;
@@ -920,7 +920,7 @@ Here's what the above is doing:
             padding-right: var(--dl-space-space-sevenunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
-            background-color: #211062;
+            background-color: #0162d5;
           }
           .home-centered-container {
             width: 100%;
@@ -1790,6 +1790,7 @@ Here's what the above is doing:
               height: 694px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
+              background-color: #009cff;
             }
             .home-close-mobile-menu {
               align-items: center;
@@ -1839,6 +1840,9 @@ Here's what the above is doing:
             .home-author {
               width: 100%;
               max-width: 800px;
+            }
+            .home-how-it-works {
+              background-color: #0162d5;
             }
             .home-category {
               padding-left: 0px;
@@ -1953,7 +1957,7 @@ Here's what the above is doing:
               height: 610px;
               position: relative;
               padding-bottom: 180px;
-              background-color: var(--dl-color-template-blue-bg);
+              background-color: #009cff;
             }
             .home-desktop-navigation {
               padding-left: 0px;
@@ -2106,6 +2110,7 @@ Here's what the above is doing:
             .home-hero {
               height: 485px;
               padding-bottom: 160px;
+              background-color: #009cff;
             }
             .home-logo {
               margin-left: 0px;

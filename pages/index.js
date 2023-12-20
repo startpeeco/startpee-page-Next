@@ -2226,8 +2226,10 @@ Here's what the above is doing:
             .home-text21 {
               color: var(--dl-color-gray-white);
               font-size: 19px;
-              line-height: 43px;
-              margin-right: 5px;
+              align-self: center;
+              line-height: 34px;
+              margin-left: var(--dl-space-space-unit);
+              margin-right: var(--dl-space-space-unit);
             }
             .home-container4 {
               border-color: var(--dl-color-gray-black);

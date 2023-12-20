@@ -2214,7 +2214,7 @@ Here's what the above is doing:
               margin-right: 6px;
             }
             .home-headng1 {
-              width: 319px;
+              width: 350px;
               height: 100%;
               padding-left: 0px;
               padding-right: 0px;

@@ -2103,6 +2103,7 @@ Here's what the above is doing:
               background-color: #000000;
             }
             .home-hero {
+              height: 485px;
               padding-bottom: 160px;
             }
             .home-logo {

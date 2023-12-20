@@ -61,6 +61,10 @@ const Home = (props) => {
                   </div>
                 </div>
               </nav>
+              <iframe
+                src="https://www.youtube.com/embed/DeQkMK5LME4"
+                className="home-iframe"
+              ></iframe>
             </div>
             <div>
               <div className="home-container2">
@@ -94,15 +98,9 @@ closeButton.addEventListener("click", function() {
           <h1 className="home-text07">
             Livecommerce vai aumentar suas vendas na shopee
           </h1>
-          <header className="home-header">
-            <iframe
-              src="https://www.youtube.com/embed/DeQkMK5LME4"
-              className="home-iframe"
-            ></iframe>
-            <div className="home-get-started1">
-              <span className="home-text08">Começar</span>
-            </div>
-          </header>
+          <div className="home-get-started1">
+            <span className="home-text08">Começar</span>
+          </div>
         </section>
         <section className="home-quote-container">
           <div className="home-quote">
@@ -428,7 +426,7 @@ closeButton.addEventListener("click", function() {
           </div>
           <div className="home-accordion">
             <div data-faq="closed" className="accordionContainer">
-              <div className="home-header1">
+              <div className="home-header">
                 <span className="home-text61">
                   — What is sit amet, consectetur adipiscing elit, sed do?
                   <span
@@ -456,7 +454,7 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div className="accordionContainer">
-              <div className="home-header2">
+              <div className="home-header1">
                 <span className="home-text63">
                   — Why is dolore magna aliqua excepteur sint
                 </span>
@@ -479,7 +477,7 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div data-faq="closed" className="accordionContainer">
-              <div className="home-header3">
+              <div className="home-header2">
                 <span className="home-text65">
                   — Is excepteur sint occaecat cupidatat non proident, sunt in
                   culpa qui officia deserunt mollit anim id est laborum?
@@ -508,7 +506,7 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
+              <div className="home-header3">
                 <span className="home-text67">
                   — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
                   enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -538,7 +536,7 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div data-faq="closed" className="accordionContainer">
-              <div className="home-header5">
+              <div className="home-header4">
                 <span className="home-text69">
                   — Is minim veniam quis nostrud exercitation ullamco laboris
                   nisi ut aliquip ex ea commodo consequat.
@@ -753,6 +751,7 @@ Here's what the above is doing:
             align-items: center;
             padding-left: var(--dl-space-space-oneandhalfunits);
             border-radius: 50px;
+            margin-bottom: 44px;
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: row;
             justify-content: space-between;
@@ -819,6 +818,10 @@ Here's what the above is doing:
             height: 40px;
             display: none;
           }
+          .home-iframe {
+            width: 580px;
+            height: 350px;
+          }
           .home-container2 {
             display: contents;
           }
@@ -830,18 +833,6 @@ Here's what the above is doing:
             text-align: center;
             font-weight: 700;
             line-height: 80px;
-          }
-          .home-header {
-            height: 779px;
-            display: flex;
-            margin-top: 140px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-iframe {
-            width: 711px;
-            height: 414px;
-            margin-top: var(--dl-space-space-fourunits);
           }
           .home-get-started1 {
             color: white;
@@ -1535,7 +1526,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header1 {
+          .home-header {
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -1552,7 +1543,7 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .home-header2 {
+          .home-header1 {
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -1569,7 +1560,7 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .home-header3 {
+          .home-header2 {
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -1586,7 +1577,7 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .home-header4 {
+          .home-header3 {
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -1603,7 +1594,7 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .home-header5 {
+          .home-header4 {
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -1809,6 +1800,7 @@ Here's what the above is doing:
             .home-centered {
               height: 60px;
               padding-left: 10px;
+              margin-bottom: 33px;
               padding-right: 10px;
             }
             .home-left {
@@ -1830,9 +1822,9 @@ Here's what the above is doing:
             .home-mobile-menu-button {
               display: flex;
             }
-            .home-header {
-              width: 100%;
-              max-width: 1200px;
+            .home-iframe {
+              width: 540px;
+              height: 301px;
             }
             .home-quote-container {
               padding-top: var(--dl-space-space-sevenunits);
@@ -1966,7 +1958,9 @@ Here's what the above is doing:
               padding-right: 0px;
             }
             .home-centered {
+              margin-top: 0px;
               padding-left: 0px;
+              margin-bottom: 33px;
               padding-right: 0px;
             }
             .home-left {
@@ -1981,17 +1975,16 @@ Here's what the above is doing:
             .home-get-started {
               display: none;
             }
+            .home-iframe {
+              width: 484px;
+              height: 272px;
+            }
             .home-text07 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
-            }
-            .home-header {
-              height: 100%;
-              margin-top: var(--dl-space-space-fourunits);
-              justify-content: center;
             }
             .home-get-started1 {
               margin-top: var(--dl-space-space-twounits);
@@ -2105,6 +2098,9 @@ Here's what the above is doing:
             }
           }
           @media (max-width: 479px) {
+            .home-container {
+              background-color: #000000;
+            }
             .home-hero {
               padding-bottom: 160px;
             }
@@ -2115,14 +2111,18 @@ Here's what the above is doing:
               align-items: center;
               justify-content: center;
             }
+            .home-centered {
+              margin-bottom: 22px;
+            }
             .home-logo1 {
               width: 64px;
               height: 38px;
             }
             .home-iframe {
-              width: 379px;
-              height: 246px;
-              margin-top: var(--dl-space-space-threeunits);
+              width: 334px;
+              height: 201px;
+              margin: 0px;
+              padding-top: 0px;
             }
             .home-get-started1 {
               width: 100%;
@@ -2131,7 +2131,7 @@ Here's what the above is doing:
               color: rgb(255, 255, 255);
             }
             .home-quote1 {
-              color: rgb(151, 126, 249);
+              color: #fcfaff;
             }
             .home-text09 {
               font-style: normal;

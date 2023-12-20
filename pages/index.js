@@ -129,7 +129,7 @@ closeButton.addEventListener("click", function() {
             <div className="home-heading">
               <span className="home-text11">Oque precisa fazer</span>
               <span className="home-text12 title">
-                para sua loja na shopee vender nos próximos 30dias
+                para sua loja na shopee vender bastante nos próximos  7 dias
               </span>
             </div>
             <div className="home-category">

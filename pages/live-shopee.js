@@ -6,8 +6,12 @@ const LiveShopee = (props) => {
     <>
       <div className="live-shopee-container">
         <Head>
-          <title>live-shopee - startpee page</title>
-          <meta property="og:title" content="live-shopee - startpee page" />
+          <title>live-shopee - startpee</title>
+          <meta property="og:title" content="live-shopee - startpee" />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1ee26364-8625-43fe-a459-a6927a9c2b87/6f8106f0-1242-4a44-8ab9-d0fd23dec068?org_if_sml=1&amp;force_format=original"
+          />
         </Head>
         <img
           alt="image"

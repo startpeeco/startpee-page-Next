@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class CustomDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head>
           <meta
             name="viewport"
@@ -24,6 +24,12 @@ class CustomDocument extends Document {
             }}
             data-tag="default-style-sheet"
           ></style>
+          <link
+            rel="shortcut icon"
+            href="/startpee2024ico.jpg"
+            type="icon/png"
+            sizes="32x32"
+          ></link>
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"

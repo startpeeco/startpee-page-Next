@@ -11,8 +11,12 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>startpee page</title>
-          <meta property="og:title" content="startpee page" />
+          <title>startpee</title>
+          <meta property="og:title" content="startpee" />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1ee26364-8625-43fe-a459-a6927a9c2b87/6f8106f0-1242-4a44-8ab9-d0fd23dec068?org_if_sml=1&amp;force_format=original"
+          />
         </Head>
         <section className="home-hero">
           <div className="home-menu">
@@ -2117,7 +2121,7 @@ Here's what the above is doing:
               background-color: #009cff;
             }
             .home-mobile-navigation {
-              width: 479px;
+              width: 471px;
               display: flex;
             }
             .home-logo {

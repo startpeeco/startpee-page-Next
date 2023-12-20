@@ -2307,7 +2307,8 @@ Here's what the above is doing:
               margin-right: 5px;
             }
             .home-container4 {
-              border-color: #787878;
+              border-color: var(--dl-color-gray-black);
+              border-style: hidden;
             }
             .home-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);

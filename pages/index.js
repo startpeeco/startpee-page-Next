@@ -678,7 +678,7 @@ Here's what the above is doing:
           }
           .home-hero {
             width: 100%;
-            height: 1152px;
+            height: 796px;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1787,6 +1787,7 @@ Here's what the above is doing:
           }
           @media (max-width: 991px) {
             .home-hero {
+              height: 694px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
@@ -1949,7 +1950,7 @@ Here's what the above is doing:
           }
           @media (max-width: 767px) {
             .home-hero {
-              height: 862px;
+              height: 628px;
               position: relative;
               padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);

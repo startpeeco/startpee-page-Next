@@ -92,9 +92,9 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="home-header">
-            <h1 className="home-text007">Live ecommerce é o futuro</h1>
+            <h1 className="home-text007">Lives na shopee</h1>
             <p className="home-text008">
-              Somos o apio que você precisa para decolar suas vendas na shopee.
+              vamos te ajudar a sua loja a vender mais
             </p>
             <div className="home-get-started1">
               <span className="home-text009">Começar</span>
@@ -215,9 +215,9 @@ closeButton.addEventListener("click", function() {
         <section className="home-how-it-works">
           <div className="home-centered-container">
             <div className="home-heading">
-              <span className="home-text027">How it works</span>
+              <span className="home-text027">Passos</span>
               <span className="home-text028 title">
-                Being social and getting leads has never been easier
+                Oque precisa ser feito para sua loja decolar
               </span>
             </div>
             <div className="home-category">

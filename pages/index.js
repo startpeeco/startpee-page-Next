@@ -108,18 +108,18 @@ closeButton.addEventListener("click", function() {
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
-              “as live da shopee são poucas pessoas que estão utilizando, teve
-              um cliente que em 7 dias já fez 14 vendas😱.”
+              “é surreal o tanto de pessoas que entra em uma live da shopee são
+              poucos que estão usando esse novo recurso😱.”
             </span>
             <div className="home-author">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGdpcmx8ZW58MHx8fHwxNjY0ODA5MjE1&amp;ixlib=rb-1.2.1&amp;w=200"
+                src="/imagem%20do%20whatsapp%20de%202023-09-18%20%C3%A3%C2%A0(s)%2018.03.41-200w.jpg"
                 className="home-avatar"
               />
               <span className="home-quote1">
-                <span className="home-text09">—  Peter McPau</span>
-                <span>, Founder and CEO, Active</span>
+                <span className="home-text09">—  JUNIOR BRZ</span>
+                <span>, fundador CEO, STARTPEE</span>
               </span>
             </div>
           </div>
@@ -158,7 +158,7 @@ closeButton.addEventListener("click", function() {
               <div className="home-category1">
                 <div className="home-headng1">
                   <span className="home-text18">
-                    2 - fazer parceria com a loja @Presentelive 
+                    2 - fazer parceria  @Presentelive 
                   </span>
                   <span className="home-text19">
                     A presente Live é perfil na shopee que faz lives dentro da
@@ -172,7 +172,6 @@ closeButton.addEventListener("click", function() {
                   className="home-pasted-image1"
                 />
               </div>
-              <div className="home-category2"></div>
             </div>
           </div>
         </section>
@@ -626,7 +625,7 @@ Here's what the above is doing:
         <footer className="home-footer">
           <div className="home-top">
             <div className="home-right2">
-              <div className="home-category3">
+              <div className="home-category2">
                 <span className="home-text71">Solutions</span>
                 <div className="home-links2">
                   <span className="home-text72">Responsive Web Design</span>
@@ -636,7 +635,7 @@ Here's what the above is doing:
                   <span className="home-text76">Static Website Generator</span>
                 </div>
               </div>
-              <div className="home-category4">
+              <div className="home-category3">
                 <span className="home-text77">Company</span>
                 <div className="home-links3">
                   <span className="home-text78">About</span>
@@ -647,7 +646,7 @@ Here's what the above is doing:
                   <span className="home-text83">Press &amp; Media</span>
                 </div>
               </div>
-              <div className="home-category5">
+              <div className="home-category4">
                 <span className="home-text84">Solutions</span>
                 <div className="home-links4">
                   <span className="home-text85">Twitter</span>
@@ -871,7 +870,7 @@ Here's what the above is doing:
           }
           .home-features {
             width: 100%;
-            height: 340px;
+            height: 296px;
             display: flex;
             z-index: 1;
             margin-top: var(--dl-space-space-fiveunits);
@@ -1064,19 +1063,6 @@ Here's what the above is doing:
           }
           .home-pasted-image1 {
             width: 100%;
-          }
-          .home-category2 {
-            flex: 1;
-            color: white;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 555px;
-            display: flex;
-            overflow: hidden;
-            align-items: flex-end;
-            border-radius: 50px;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #000000;
           }
           .home-pricing {
             width: 100%;
@@ -1677,7 +1663,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-category3 {
+          .home-category2 {
             width: 240px;
             display: flex;
             align-items: stretch;
@@ -1717,7 +1703,7 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-category4 {
+          .home-category3 {
             width: 240px;
             display: flex;
             align-items: flex-start;
@@ -1760,7 +1746,7 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-category5 {
+          .home-category4 {
             width: 240px;
             display: flex;
             flex-direction: column;
@@ -2167,8 +2153,13 @@ Here's what the above is doing:
             }
             .home-message {
               color: rgb(255, 255, 255);
-              font-size: 40px;
-              line-height: 52px;
+            }
+            .home-quote1 {
+              color: rgb(151, 126, 249);
+            }
+            .home-text09 {
+              font-style: normal;
+              font-weight: 600;
             }
             .home-text12 {
               color: var(--dl-color-gray-white);

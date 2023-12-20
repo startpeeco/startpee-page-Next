@@ -10,8 +10,8 @@ const LiveShopee = (props) => {
           <meta property="og:title" content="live-shopee - startpee page" />
         </Head>
         <img
-          src="/shopee-lives-contribuem-com-vendas-e-engajamento-de-consumidores-e-vendedores-no-brasil-1500w.png"
           alt="image"
+          src="/shopee-lives-contribuem-com-vendas-e-engajamento-de-consumidores-e-vendedores-no-brasil-1500w.png"
           className="live-shopee-image"
         />
         <div className="live-shopee-get-started">

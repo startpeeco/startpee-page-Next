@@ -38,19 +38,19 @@ const Home = (props) => {
                 <div className="home-left">
                   <img
                     alt="pastedImage"
-                    src="/pastedimage-no9b-1500h.png"
+                    src="/startpee2024remo-200h.png"
                     className="home-logo1"
                   />
                   <div className="home-links1">
                     <span className="Link">Solutions</span>
                     <span className="Link">How it works</span>
-                    <span className="Link">Prices</span>
+                    <span className="Link">Ativar live shopee</span>
                   </div>
                 </div>
                 <div className="home-right">
                   <span className="home-sign-in Link">Sign in</span>
                   <div className="home-get-started">
-                    <span className="home-text006">Get started</span>
+                    <span className="home-text006">começar</span>
                   </div>
                   <div id="open-mobile-menu" className="home-burger-menu">
                     <img
@@ -92,13 +92,12 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="home-header">
-            <h1 className="home-text007">Take Control of Your Social Media</h1>
+            <h1 className="home-text007">Live ecommerce é o futuro</h1>
             <p className="home-text008">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
+              Somos o apio que você precisa para decolar suas vendas na shopee.
             </p>
             <div className="home-get-started1">
-              <span className="home-text009">Get started</span>
+              <span className="home-text009">Começar</span>
             </div>
           </header>
           <div className="home-dashboard-preview">
@@ -286,7 +285,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-centered-container1">
             <div className="home-heading1">
               <span className="home-text036 title">
-                Pricing for all kind of businesses
+                Preço fixo lives para seu produtos
               </span>
               <span className="home-text037">
                 Create next-generation solutions for small business customers
@@ -774,7 +773,7 @@ Here's what the above is doing:
           <div className="home-bottom">
             <img
               alt="pastedImage"
-              src="/pastedimage-no9b-1500h.png"
+              src="/startpee2024remo-200h.png"
               className="home-branding"
             />
             <span className="home-text107">Copyright © Active - 2022</span>
@@ -881,7 +880,8 @@ Here's what the above is doing:
             padding-bottom: 38px;
           }
           .home-logo1 {
-            width: 105px;
+            width: 123px;
+            height: 56px;
             margin-left: var(--dl-space-space-halfunit);
           }
           .home-links1 {
@@ -918,7 +918,7 @@ Here's what the above is doing:
             background-color: #5228f5;
           }
           .home-text006 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             font-style: normal;
             font-weight: 600;
           }
@@ -950,7 +950,7 @@ Here's what the above is doing:
             line-height: 80px;
           }
           .home-text008 {
-            color: #eee9fe;
+            color: rgb(238, 233, 254);
             font-size: 20px;
             max-width: 600px;
             margin-top: 16px;
@@ -1379,7 +1379,7 @@ Here's what the above is doing:
             text-align: center;
           }
           .home-text037 {
-            color: #eee9fe;
+            color: rgb(238, 233, 254);
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
@@ -1392,7 +1392,7 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-text038 {
-            color: #eee9fe;
+            color: rgb(238, 233, 254);
             width: 128px;
             font-style: normal;
             text-align: center;
@@ -1403,7 +1403,7 @@ Here's what the above is doing:
             border-bottom-width: 2px;
           }
           .home-text039 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             width: 128px;
             font-style: normal;
             text-align: center;

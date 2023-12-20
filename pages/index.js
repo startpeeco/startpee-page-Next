@@ -2199,6 +2199,7 @@ Here's what the above is doing:
             }
             .home-text14 {
               color: rgb(238, 233, 254);
+              font-size: 20px;
               align-self: center;
               line-height: 24px;
               margin-left: 0px;
@@ -2207,12 +2208,14 @@ Here's what the above is doing:
               font-size: 18px;
             }
             .home-category1 {
-              width: 479px;
+              width: 438px;
               height: 341px;
+              margin-left: 6px;
+              margin-right: 6px;
             }
             .home-headng1 {
-              width: 413px;
-              height: 373px;
+              width: 319px;
+              height: 100%;
               padding-left: 0px;
               padding-right: 0px;
             }

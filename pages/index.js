@@ -584,7 +584,7 @@ Here's what the above is doing:
           <div className="home-top">
             <div className="home-right2">
               <div id="serv" className="home-category2">
-                <span className="home-text73">SoluÇões </span>
+                <span className="home-text73">Soluções </span>
                 <div className="home-links2">
                   <span className="home-text74">Ativar live na shopee</span>
                   <span className="home-text75">
@@ -597,9 +597,24 @@ Here's what the above is doing:
               <div className="home-category3">
                 <span className="home-text78">Empresa</span>
                 <div className="home-links3">
-                  <span className="home-text79">Reclame aqui</span>
-                  <span className="home-text80">Falar com o chefe</span>
-                  <span className="home-text81">seja parceiro</span>
+                  <a
+                    href="https://www.reclameaqui.com.br/empresa/startpee/"
+                    className="home-link2"
+                  >
+                    Reclame aqui
+                  </a>
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=5511967272695&amp;text&amp;type=phone_number&amp;app_absent=0"
+                    className="home-link3"
+                  >
+                    Falar com o chefe
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/juniobrz/"
+                    className="home-link4"
+                  >
+                    seja parceiro
+                  </a>
                 </div>
               </div>
             </div>
@@ -610,7 +625,7 @@ Here's what the above is doing:
               src="/startpee2024bar-1500h.png"
               className="home-branding"
             />
-            <span className="home-text82">Copyright © Startpee - 2024</span>
+            <span className="home-text79">Copyright © Startpee - 2024</span>
           </div>
         </footer>
       </div>
@@ -1641,17 +1656,20 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text79 {
+          .home-link2 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
-          .home-text80 {
+          .home-link3 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
-          .home-text81 {
+          .home-link4 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
           .home-bottom {
             width: 100%;
@@ -1668,7 +1686,7 @@ Here's what the above is doing:
               brightness(103%) contrast(103%);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text82 {
+          .home-text79 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
@@ -1847,7 +1865,7 @@ Here's what the above is doing:
               width: var(--dl-size-size-medium);
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text82 {
+            .home-text79 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;

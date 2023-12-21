@@ -1701,8 +1701,8 @@ Here's what the above is doing:
               margin-left: var(--dl-space-space-halfunit);
             }
             .home-logo1 {
-              width: 64px;
-              height: 39px;
+              width: 70px;
+              height: 34px;
             }
             .home-links1 {
               display: none;
@@ -1872,6 +1872,10 @@ Here's what the above is doing:
             }
             .home-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .home-logo1 {
+              width: 74px;
+              height: 38px;
             }
             .home-right {
               margin-right: var(--dl-space-space-unit);
@@ -2053,9 +2057,13 @@ Here's what the above is doing:
             .home-centered {
               margin-bottom: 50px;
             }
+            .home-left {
+              width: 92px;
+              height: 72px;
+            }
             .home-logo1 {
-              width: 64px;
-              height: 38px;
+              width: 86px;
+              height: 46px;
             }
             .home-iframe {
               width: 334px;
